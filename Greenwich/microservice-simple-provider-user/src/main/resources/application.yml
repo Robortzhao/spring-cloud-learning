@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  #  使用JPA建表
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    dirver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/world?useUnicode=true&serverTimezone=GMT&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
