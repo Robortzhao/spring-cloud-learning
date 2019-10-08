@@ -1,5 +1,6 @@
 server:
   port: 8001
+<<<<<<< HEAD
 
 eureka:
   client:
@@ -10,6 +11,8 @@ spring:
   application:
     name: microservice-consumer-movie
 
+=======
+>>>>>>> b18d64dc0ae1ef850f6b2234ad4acc37d8ff056d
 management:
   endpoint:
     health:
@@ -17,5 +20,10 @@ management:
   endpoints:
     web:
       exposure:
+<<<<<<< HEAD
         #æš´éœ²metricsç«¯ç‚¹ï¼Œå¦‚éœ€æš´éœ²å¤šä¸ªï¼Œç”¨,åˆ†éš”ï¼›å¦‚éœ€æš´éœ²æ‰€æœ‰ç«¯ç‚¹ï¼Œç”¨'*'
         include: '*'
+=======
+        #±©Â¶metrics¶Ëµã£¬ÈçÐè±©Â¶¶à¸ö£¬ÓÃ,·Ö¸ô£»ÈçÐè±©Â¶ËùÓÐ¶Ëµã£¬ÓÃ'*'
+        include: '*'
+>>>>>>> b18d64dc0ae1ef850f6b2234ad4acc37d8ff056d

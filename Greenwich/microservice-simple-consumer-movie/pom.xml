@@ -15,10 +15,15 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
+<<<<<<< HEAD
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
+=======
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+>>>>>>> b18d64dc0ae1ef850f6b2234ad4acc37d8ff056d
     </properties>
 
     <dependencies>
@@ -48,11 +53,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+<<<<<<< HEAD
         <!--服务发现组件-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+=======
+>>>>>>> b18d64dc0ae1ef850f6b2234ad4acc37d8ff056d
 
     </dependencies>
 
@@ -62,7 +70,11 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
+<<<<<<< HEAD
                 <version>${spring-cloud.version}</version>
+=======
+                <version>Greenwich.SR2</version>
+>>>>>>> b18d64dc0ae1ef850f6b2234ad4acc37d8ff056d
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
